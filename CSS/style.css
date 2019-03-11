@@ -86,7 +86,7 @@ header {
 
 
 .slide {
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     width: 100vw;
     height: 602px;
     position: relative;
@@ -239,4 +239,33 @@ h2::after {
 
 .bluets:hover .transparent-black2 {
     display: block;
+}
+
+.spisok li {
+    position: absolute;
+    list-style: none;
+}
+
+.item1 {
+    left: 38px;
+    top: 60px;
+}
+
+.item1:hover {
+    background-color: #1abc9c;
+}
+
+.item2 {
+    right: 35px;
+    top: 60px;
+}
+
+.item3 {
+    transform: translateY(-50%);
+    left: 95px;
+    top: 85px;
+}
+
+.item2:hover {
+    background-color: #1abc9c;
 }
